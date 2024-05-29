@@ -13,7 +13,7 @@
         </div>
         <div class="footer__content">
             <div class="icon-boder"><i class="fas fa-envelope"></i></div>
-            <span>DZStore@gmail.com</span>
+            <span>DZOffice@gmail.com</span>
         </div>
 
     </div>

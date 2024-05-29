@@ -582,10 +582,9 @@ SELECT*FROM admin;
 SELECT*FROM cart;
 SELECT*FROM category;
 SELECT*FROM orders;
-SELECT*FROM customer;
 SELECT*FROM order_details;
 SELECT*FROM product;
-
+SELECT*FROM customer;
 -- 
 -- Dumping data for table cart
 --
@@ -597,3 +596,180 @@ SELECT*FROM product;
 INSERT INTO admin VALUES
 (1, 'admin', 'root', 1);
 
+INSERT INTO orders VALUES
+(96,15,'2024-04-1',"Đã giao hàng","","Ha Noi",0334451293,"Pham Tri Duc") ;
+INSERT INTO order_details VALUE
+(120,96,3,7000);
+-- Inserting data into the orders table
+-- Inserting data into the orders table
+-- Inserting data into the orders table
+INSERT INTO orders VALUES
+(96, 15, '2024-04-01', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(97, 15, '2024-04-02', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(98, 15, '2024-04-03', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(99, 15, '2024-04-04', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(100, 15, '2024-04-05', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(101, 15, '2024-04-06', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(102, 15, '2024-04-07', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(103, 15, '2024-04-08', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(104, 15, '2024-04-09', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(105, 15, '2024-04-10', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(106, 15, '2024-04-11', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(107, 15, '2024-04-12', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(108, 15, '2024-04-13', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(109, 15, '2024-04-14', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(110, 15, '2024-04-15', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(111, 15, '2024-04-16', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(112, 15, '2024-04-17', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(113, 15, '2024-04-18', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(114, 15, '2024-04-19', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(115, 15, '2024-04-20', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc');
+
+-- Inserting data into the order_details table
+INSERT INTO order_details VALUES
+(120, 96, 3, 14700),
+(121, 97, 3, 14700),
+(122, 98, 3, 14700),
+(123, 99, 3, 14700),
+(124, 100, 3, 14700),
+(125, 101, 3, 14700),
+(126, 102, 3, 14700),
+(127, 103, 3, 14700),
+(128, 104, 3, 14700),
+(129, 105, 3, 14700),
+(130, 106, 3, 14700),
+(131, 107, 3, 14700),
+(132, 108, 3, 14700),
+(133, 109, 3, 14700),
+(134, 110, 3, 14700),
+(135, 111, 3, 14700),
+(136, 112, 3, 14700),
+(137, 113, 3, 14700),
+(138, 114, 3, 14700),
+(139, 115, 3, 14700);
+
+-- Inserting data into the orders table
+INSERT INTO orders VALUES
+(96, 15, '2024-04-01', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(97, 15, '2024-04-02', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(98, 15, '2024-04-03', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(99, 15, '2024-04-04', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(100, 15, '2024-04-05', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(101, 15, '2024-04-06', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(102, 15, '2024-04-07', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(103, 15, '2024-04-08', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(104, 15, '2024-04-09', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(105, 15, '2024-04-10', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(106, 15, '2024-04-11', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(107, 15, '2024-04-12', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(108, 15, '2024-04-13', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(109, 15, '2024-04-14', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(110, 15, '2024-04-15', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(111, 15, '2024-04-16', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(112, 15, '2024-04-17', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(113, 15, '2024-04-18', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(114, 15, '2024-04-19', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(115, 15, '2024-04-20', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc');
+INSERT INTO orders VALUES
+(116,15,'2024-03-1',"Đã giao hàng","","Ha Noi",0334451293,"Pham Tri Duc") ;
+INSERT INTO order_details VALUE
+(6,116,3,1500);
+-- Inserting data into the order_details table
+INSERT INTO order_details VALUES
+(120, 96, 13, 7000),
+(121, 97, 3, 7000),
+(122, 98, 23, 7000),
+(123, 99, 3, 7000),
+(124, 100, 3, 7000),
+(125, 101, 33, 7000),
+(126, 102, 3, 7000),
+(127, 103, 13, 7000),
+(128, 104, 3, 7000),
+(129, 105, 3, 7000),
+(130, 106, 3, 7000),
+(131, 107, 23, 7000),
+(132, 108, 3, 7000),
+(133, 109, 3, 7000),
+(134, 110, 3, 7000),
+(135, 111, 23, 7000),
+(136, 112, 31, 7000),
+(137, 113, 3, 7000),
+(138, 114, 3, 7000),
+(139, 115, 32, 7000);
+-- Inserting data into the orders table
+INSERT INTO orders VALUES
+(116, 15, '2024-03-01', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(117, 15, '2024-03-02', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(118, 15, '2024-03-03', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(119, 15, '2024-03-04', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(120, 15, '2024-03-05', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(121, 15, '2024-03-06', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(122, 15, '2024-03-07', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(123, 15, '2024-03-08', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(124, 15, '2024-03-09', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(125, 15, '2024-03-10', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(126, 15, '2024-03-11', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(127, 15, '2024-03-12', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(128, 15, '2024-03-13', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(129, 15, '2024-03-14', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(130, 15, '2024-03-15', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(131, 15, '2024-03-16', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(132, 15, '2024-03-17', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(133, 15, '2024-03-18', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(134, 15, '2024-03-19', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(135, 15, '2024-03-20', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc');
+
+-- Inserting data into the order_details table
+INSERT INTO order_details VALUES
+(6, 116, 13, 1500),
+(6, 117, 3, 1500),
+(6, 118, 23, 1500),
+(6, 119, 3, 1500),
+(6, 120, 33, 1500),
+(6, 121, 3, 1500),
+(6, 122, 34, 1500),
+(6, 123, 3, 1500),
+(6, 124, 35, 1500),
+(6, 125, 3, 1500),
+(6, 126, 37, 1500),
+(6, 127, 3, 1500),
+(6, 128, 33, 1500),
+(6, 129, 3, 1500),
+(6, 130, 34, 1500),
+(6, 131, 3, 1500),
+(6, 132, 3, 1500),
+(6, 133, 13, 1500),
+(6, 134, 3, 1500),
+(6, 135, 23, 1500);
+INSERT INTO orders VALUES
+(136,15,'2024-03-1',"Đã giao hàng","","Ha Noi",0334451293,"Pham Tri Duc") ;
+INSERT INTO order_details VALUE
+(3,316,3,35900);
+-- Inserting data into the orders table
+INSERT INTO orders VALUES
+(136, 15, '2024-02-01', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(137, 15, '2024-02-02', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(138, 15, '2024-02-03', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(139, 15, '2024-02-04', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(140, 15, '2024-02-05', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(141, 15, '2024-02-06', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(142, 15, '2024-02-07', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(143, 15, '2024-02-08', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(144, 15, '2024-02-09', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc'),
+(145, 15, '2024-02-10', 'Đã giao hàng', '', 'Ha Noi', '0334451293', 'Pham Tri Duc');
+
+-- Inserting data into the order_details table
+INSERT INTO order_details VALUES
+(3, 316, 3, 35900),
+(3, 316, 3, 35900),
+(3, 316, 3, 35900),
+(3, 316, 3, 35900),
+(3, 316, 3, 35900),
+(3, 316, 3, 35900),
+(3, 316, 3, 35900),
+(3, 316, 3, 35900),
+(3, 316, 3, 35900),
+(3, 316, 3, 35900);
+
+SELECT*FROM orders;
+SELECT*FROM order_details;

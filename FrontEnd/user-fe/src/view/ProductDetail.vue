@@ -22,7 +22,7 @@
                    <button class="button" @click="addCart(item)">Thêm vào giỏ hàng</button>
                 </div>
                 <div class="store-comment">
-                    <p>DZ STORE CAM KẾT:</p>
+                    <p>DZ Office CAM KẾT:</p>
                     <div class="store-title">
                         <i class="fas fa-check-circle"></i>
                         Cung cấp các sản phẩm văn phòng đa dạng với giá cả hợp lý
